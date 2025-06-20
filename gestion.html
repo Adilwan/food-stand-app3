@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion du Stand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gestion des Produits et du Stock</h1>
+        <nav>
+            <a href="index.html">Retour à la Vente</a>
+        </nav>
+    </header>
+
+    <section id="add-product-form">
+        <h2>Ajouter un nouveau produit</h2>
+        <form>
+            <input type="text" id="new-product-name" placeholder="Nom du produit" required>
+            <input type="number" id="new-product-price" placeholder="Prix" step="0.10" required>
+            <input type="number" id="new-product-stock" placeholder="Stock initial" required>
+            <button type="submit">Ajouter</button>
+        </form>
+    </section>
+
+    <main id="app">
+        <!-- Les produits seront chargés ici par JavaScript -->
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="gestion.js"></script>
+</body>
+</html> 

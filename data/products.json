@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Club Sandwich",
+    "price": 7.00,
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "name": "Hot-dog",
+    "price": 7.00,
+    "stock": 100
+  },
+  {
+    "id": 3,
+    "name": "Soda",
+    "price": 5.00,
+    "stock": 80
+  },
+  {
+    "id": 4,
+    "name": "Bière",
+    "price": 8.00,
+    "stock": 40
+  },
+  {
+    "id": 5,
+    "name": "Grande Eau",
+    "price": 7.00,
+    "stock": 80
+  }
+] 

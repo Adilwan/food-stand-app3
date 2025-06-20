@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caisse du Stand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Caisse</h1>
+        <nav>
+            <a href="gestion.html">Gestion des produits</a>
+        </nav>
+    </header>
+
+    <div class="pos-container">
+        <main id="product-list">
+            <!-- La liste des produits pour la vente sera chargée ici -->
+        </main>
+
+        <aside id="order-summary">
+            <h2>Commande</h2>
+            <div id="order-items">
+                <p>Sélectionnez des produits...</p>
+            </div>
+            <div id="order-total">
+                <strong>Total: <span id="total-amount">0.00</span> €</strong>
+            </div>
+            <button id="validate-order">Valider la commande</button>
+        </aside>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="pos.js"></script>
+</body>
+</html> 
