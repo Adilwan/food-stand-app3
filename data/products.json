@@ -2,31 +2,89 @@
   {
     "id": 1,
     "name": "Club Sandwich",
-    "price": 7.00,
-    "stock": 50
+    "price": 7,
+    "stock": 50,
+    "isVisible": true
   },
   {
     "id": 2,
     "name": "Hot-dog",
-    "price": 7.00,
-    "stock": 100
+    "price": 7,
+    "stock": 100,
+    "isVisible": true,
+    "recipe": {
+      "baguette": 0.25,
+      "pain à hot-dog": 1,
+      "saucisse": 1
+    }
   },
   {
     "id": 3,
-    "name": "Soda",
-    "price": 5.00,
-    "stock": 80
+    "name": "Coca",
+    "price": 5,
+    "stock": 80,
+    "isVisible": true
   },
   {
     "id": 4,
-    "name": "Bière",
-    "price": 8.00,
-    "stock": 40
+    "name": "Coca zéro",
+    "price": 5,
+    "stock": 60,
+    "isVisible": true
   },
   {
-    "id": 5,
+    "id": 6,
+    "name": "Bière canette",
+    "price": 8,
+    "stock": 40,
+    "isVisible": true
+  },
+  {
+    "id": 7,
+    "name": "Petite eau",
+    "price": 3,
+    "stock": 100,
+    "isVisible": true
+  },
+  {
+    "id": 8,
     "name": "Grande Eau",
-    "price": 7.00,
-    "stock": 80
+    "price": 7,
+    "stock": 80,
+    "isVisible": true
+  },
+  {
+    "id": 9,
+    "name": "Baguette",
+    "price": 0,
+    "stock": 60,
+    "isVisible": false,
+    "isIngredient": true,
+    "unit": "baguette"
+  },
+  {
+    "id": 10,
+    "name": "Saucisse",
+    "price": 0,
+    "stock": 110,
+    "isVisible": false,
+    "isIngredient": true,
+    "unit": "pièce"
+  },
+  {
+    "id": 11,
+    "name": "Pain à hot-dog",
+    "price": 0,
+    "stock": 0,
+    "isVisible": false,
+    "isIngredient": true,
+    "unit": "pièce"
+  },
+  {
+    "id": 1750528265442,
+    "name": "Fanta",
+    "price": 5,
+    "stock": 70,
+    "isVisible": true
   }
-] 
+]

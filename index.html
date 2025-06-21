@@ -28,6 +28,19 @@
             <div id="order-total">
                 <strong>Total: <span id="total-amount">0.00</span> €</strong>
             </div>
+            
+            <!-- Section de calcul de monnaie -->
+            <div id="cash-payment-section" style="display: none; margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6;">
+                <h3 style="margin: 0 0 15px 0; color: #495057;">Paiement en liquide</h3>
+                <div style="margin-bottom: 10px;">
+                    <label for="amount-given" style="display: block; margin-bottom: 5px; font-weight: bold; color: #495057;">Argent donné:</label>
+                    <input type="number" id="amount-given" step="0.01" min="0" placeholder="0.00" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px; font-size: 16px;">
+                </div>
+                <div style="margin-top: 15px; padding: 10px; background-color: #e9ecef; border-radius: 4px;">
+                    <strong style="color: #495057;">Monnaie à rendre: <span id="change-amount" style="color: #28a745;">0.00</span> €</strong>
+                </div>
+            </div>
+            
             <button id="validate-order">Valider la commande</button>
         </aside>
     </div>
